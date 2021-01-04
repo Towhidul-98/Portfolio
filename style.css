@@ -1,0 +1,27 @@
+body{
+    font-family: 'Times New Roman', Times, serif; 
+}
+.Head{
+    font-size: 50px;
+    margin:10px;
+}
+.diff_color{
+    color: hsl(44, 100%, 50%)
+}
+.spe{
+    margin-bottom: 50px;
+}
+.Type{
+    font-size:130%
+}
+h3{
+    font-size: 25px;
+}
+.Division{
+    width: 45%;
+    float:left;
+    margin-left:5%;
+}
+.Division img{
+    width:100%;
+}
