@@ -1,5 +1,10 @@
 body{
+    margin:0;
     font-family: 'Times New Roman', Times, serif; 
+}
+#head{
+    font-size: 50px;
+    margin:40px 10px 10px 10px;
 }
 .Head{
     font-size: 50px;
@@ -9,19 +14,51 @@ body{
     color: hsl(44, 100%, 50%)
 }
 .spe{
-    margin-bottom: 50px;
+      margin-bottom: 50px;
 }
 .Type{
-    font-size:130%
+    font-size:130%;
+    color: dimgray;
 }
 h3{
     font-size: 25px;
 }
 .Division{
-    width: 45%;
+    width: 40%;
     float:left;
     margin-left:5%;
+    padding-right: 5%;
 }
 .Division img{
     width:100%;
+}   
+section{
+    height:500px;
+    padding-bottom: 120px;;
+}
+.top-banner{
+    background-image: url("images/Programming Hero/top-banner.png");
+    background-repeat: no-repeat;
+}
+.link{
+    text-decoration: none;
+    background-color: rgb(122, 122, 231);
+    color:white;
+    font-weight:600;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-image: linear-gradient(45 deg,rgb(189, 189, 252),rgb(60, 60, 250));
+}
+
+.second-banner{
+    background-image: url("images/Programming\ Hero/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.pad2div2{
+    padding-top: 10px;
+}
+.second-head{
+    font-size: 40px;
 }
