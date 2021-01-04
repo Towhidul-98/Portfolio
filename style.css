@@ -62,3 +62,37 @@ section{
 .second-head{
     font-size: 40px;
 }
+.title{
+   font-size: 45px;
+   margin:0px;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 350px;
+    padding: 30px;
+    width: 35%;
+    margin:5%;
+    background-color: white;
+}
+.experience{
+    background-image: url("images/Programming\ Hero/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left ;
+    
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby_dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightblue,blue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+}
